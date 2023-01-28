@@ -4,4 +4,16 @@
 00000004 - 00000007 = Samples?
 00000008 - 0000000B = ?, gives invalid opcodes when modified, most likely defines where the scripts are
 0000000C - 0000000F = ?, gives invalid opcodes when modified, most likely defines where scripts are
-00000010 - 00000013 = Sequences or Instruments
+00000010 - 00000013 = Sequences or Instrument
+
+
+====
+Edit 28 Jan 2023
+
+
+It appears as though the SOUNDDATA.ROM stores data in a form of semi-chunklike format.
+
+It is highly likely it is one of the following:
+      1) Each chunk having Samples, then Instruments, then Sequences
+      2) A chunk having samples in one block, then instruments in another, then sequences.
+      3) A sample chunk, and sequence chunk.
