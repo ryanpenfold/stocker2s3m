@@ -19,3 +19,6 @@ It is highly likely it is one of the following:
       3) A sample chunk, and sequence chunk.
     
 Samples are encoded in PCM16 Signed (majority) and PCM8 (most likely outliers). My ears now hurt, thanks Audacity.
+
+
+However, I'm rendering this file outdated. Please see spec.md for information.
