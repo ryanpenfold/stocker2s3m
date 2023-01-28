@@ -17,3 +17,5 @@ It is highly likely it is one of the following:
       1) Each chunk having Samples, then Instruments, then Sequences
       2) A chunk having samples in one block, then instruments in another, then sequences.
       3) A sample chunk, and sequence chunk.
+    
+Samples are encoded in PCM16 Signed (majority) and PCM8 (most likely outliers).
